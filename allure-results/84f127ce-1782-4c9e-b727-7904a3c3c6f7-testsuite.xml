@@ -1,0 +1,278 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1545134104616' stop='1545134115710'>
+    <name>Open cart application Test if the open cart application verifies the error message.</name>
+    <title>Open cart application Test if the open cart application verifies the error message.</title>
+    <test-cases>
+        <test-case start='1545134104621' status='passed' stop='1545134110474'>
+            <name>I open the opencart url "http://www.opencart.com"</name>
+            <title>I open the opencart url "http://www.opencart.com"</title>
+            <labels>
+                <label name='feature' value='Open cart application'/>
+                <label name='story' value='Test if the open cart application verifies the error message.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1545134104626' status='passed' stop='1545134110472'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/url</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c5e1d140-544a-4031-8ca4-b7789fec9f52-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='468d90ca-8712-42db-9065-cb6e63869d93-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545134110475' status='passed' stop='1545134111479'>
+            <name>I pause for the 1000ms</name>
+            <title>I pause for the 1000ms</title>
+            <labels>
+                <label name='feature' value='Open cart application'/>
+                <label name='story' value='Test if the open cart application verifies the error message.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1545134111479' status='passed' stop='1545134111492'>
+            <name>the title is  "OpenCart - Open Source Shopping Cart Solution"</name>
+            <title>the title is  "OpenCart - Open Source Shopping Cart Solution"</title>
+            <labels>
+                <label name='feature' value='Open cart application'/>
+                <label name='story' value='Test if the open cart application verifies the error message.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1545134111483' status='passed' stop='1545134111491'>
+                    <name>GET /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/title</name>
+                    <title>GET /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/title</title>
+                    <attachments>
+                        <attachment title='Response' source='83a0c4fc-6c52-43d0-95bb-7f3db24cba23-attachment.json' type='application/json' size='134'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545134111493' status='passed' stop='1545134113835'>
+            <name>I click on elem "Login link"</name>
+            <title>I click on elem "Login link"</title>
+            <labels>
+                <label name='feature' value='Open cart application'/>
+                <label name='story' value='Test if the open cart application verifies the error message.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1545134111495' status='passed' stop='1545134111511'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cf40cb05-b3eb-45b5-98a9-e285c21362ed-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='99d1ab41-f695-4e44-837e-861eb4cf15a5-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545134111511' status='passed' stop='1545134113833'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.36195992709323876-1/click</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.36195992709323876-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='070e781a-0a3a-4c7d-84ac-a86ff676bb08-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545134113836' status='passed' stop='1545134113951'>
+            <name>I enter "Aisha" into "userfield"</name>
+            <title>I enter "Aisha" into "userfield"</title>
+            <labels>
+                <label name='feature' value='Open cart application'/>
+                <label name='story' value='Test if the open cart application verifies the error message.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1545134113839' status='passed' stop='1545134113855'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/elements</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2a723fd8-05af-4000-8205-bcde231ca392-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='a5413e87-bbea-43bd-aafa-97f0128465ad-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545134113855' status='passed' stop='1545134113881'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-1/clear</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='887476d0-09e9-48fd-baa0-26b34fac70bf-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545134113881' status='passed' stop='1545134113950'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-1/value</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b2ae523f-17a3-4e93-8fb0-5f4fdf2c3c53-attachment.json' type='application/json' size='109'/>
+                        <attachment title='Response' source='dc6659b7-c163-4959-9ec2-33b4219ce35c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545134113952' status='passed' stop='1545134114040'>
+            <name>I enter "passdummy" into "password-field"</name>
+            <title>I enter "passdummy" into "password-field"</title>
+            <labels>
+                <label name='feature' value='Open cart application'/>
+                <label name='story' value='Test if the open cart application verifies the error message.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1545134113953' status='passed' stop='1545134113969'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/elements</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='50bd4c48-12a4-4ada-a221-31fa477dafea-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='39a52ce8-f81f-4b2b-a6e7-bbebed094852-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545134113969' status='passed' stop='1545134113995'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-2/clear</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='86654c19-ee0a-4dcc-b8fd-8cf5cdeefe44-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545134113995' status='passed' stop='1545134114038'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-2/value</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='48025ac1-7c3d-4d04-891c-ee82641a30b4-attachment.json' type='application/json' size='165'/>
+                        <attachment title='Response' source='6880fc59-03e0-4425-b33f-a3540018c7fc-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545134114040' status='passed' stop='1545134115673'>
+            <name>I click on elem "Login button"</name>
+            <title>I click on elem "Login button"</title>
+            <labels>
+                <label name='feature' value='Open cart application'/>
+                <label name='story' value='Test if the open cart application verifies the error message.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1545134114042' status='passed' stop='1545134114080'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element</title>
+                    <attachments>
+                        <attachment title='Request' source='04139eb3-df35-4a3a-888b-caeecd880683-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='9a1bbb2a-a88d-4091-bb28-189157d54790-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545134114081' status='passed' stop='1545134115671'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-3/click</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='f6144e1c-dae9-47fb-92d2-ce3b772519b5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545134115673' status='passed' stop='1545134115709'>
+            <name>I see "Login-error-message" into "Info-label"</name>
+            <title>I see "Login-error-message" into "Info-label"</title>
+            <labels>
+                <label name='feature' value='Open cart application'/>
+                <label name='story' value='Test if the open cart application verifies the error message.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1545134115676' status='passed' stop='1545134115690'>
+                    <name>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/elements</name>
+                    <title>POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ac6bb90f-f5f6-4091-97a6-cf896471f3ae-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='dde484ba-b5c3-4c79-bb81-62cf7a2463b3-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545134115691' status='passed' stop='1545134115707'>
+                    <name>GET /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6802240281042167-1/text</name>
+                    <title>GET /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6802240281042167-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='f0bf55ca-5e1f-4d5a-86bb-5790ff900c2e-attachment.json' type='application/json' size='128'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

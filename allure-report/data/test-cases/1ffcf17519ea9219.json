@@ -1,0 +1,92 @@
+{
+  "uid" : "1ffcf17519ea9219",
+  "name" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "historyId" : "8d0e7e1a15fca3f1d01aa22a1f842b78",
+  "time" : {
+    "start" : 1545131894784,
+    "stop" : 1545131894803,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/0dfa876a736ae97b13f4dbae04085c13/title",
+      "time" : {
+        "start" : 1545131894791,
+        "stop" : 1545131894801,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d979d4bc3a7dd6c8",
+        "name" : "Response",
+        "source" : "d979d4bc3a7dd6c8.json",
+        "type" : "application/json",
+        "size" : 134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ffcf17519ea9219.json",
+  "parameterValues" : [ "chrome" ]
+}

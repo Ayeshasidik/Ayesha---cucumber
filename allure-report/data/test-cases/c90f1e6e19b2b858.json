@@ -1,0 +1,61 @@
+{
+  "uid" : "c90f1e6e19b2b858",
+  "name" : "I see \"Login-error-message\" into \"Info-label\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I see \"Login-error-message\" into \"Info-label\"",
+  "historyId" : "4aa3b8304ceb4f85256413424f308130",
+  "time" : {
+    "start" : 1545131307142,
+    "stop" : 1545131307142,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I see \"Login-error-message\" into \"Info-label\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c90f1e6e19b2b858.json",
+  "parameterValues" : [ "chrome" ]
+}

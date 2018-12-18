@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":5,\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature\"]" ],
+  "name" : "spec files"
+} ]

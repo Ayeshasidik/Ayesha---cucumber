@@ -1,0 +1,169 @@
+{
+  "uid" : "7e321c3bcd28bd51",
+  "name" : "I click on elem \"Login link\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I click on elem \"Login link\"",
+  "historyId" : "8811d1d56625511713d4aca8b043abdc",
+  "time" : {
+    "start" : 1545132273387,
+    "stop" : 1545132275665,
+    "duration" : 2278
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ed021f1322dcdfe119a3f5e4c97d97a7/element",
+      "time" : {
+        "start" : 1545132273391,
+        "stop" : 1545132273406,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "595283aeb0e66afa",
+        "name" : "Request",
+        "source" : "595283aeb0e66afa.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "c54f8b85ff791fdd",
+        "name" : "Response",
+        "source" : "c54f8b85ff791fdd.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ed021f1322dcdfe119a3f5e4c97d97a7/element/0.5694754906988233-1/click",
+      "time" : {
+        "start" : 1545132273406,
+        "stop" : 1545132275663,
+        "duration" : 2257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6168931859b43aff",
+        "name" : "Response",
+        "source" : "6168931859b43aff.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on elem \"Login link\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f84bc1ad8f032aba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545131894804,
+        "stop" : 1545131898491,
+        "duration" : 3687
+      }
+    }, {
+      "uid" : "c5168f1ddaa516da",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131776689,
+        "stop" : 1545131776690,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "251beff08a666f2f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131629364,
+        "stop" : 1545131629364,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "685fa3a0e77c7166",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131307140,
+        "stop" : 1545131307140,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "469f1fbfded53a2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545126967070,
+        "stop" : 1545126967070,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4d7f6d3c6441490f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545126798852,
+        "stop" : 1545126798853,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e321c3bcd28bd51.json",
+  "parameterValues" : [ "chrome" ]
+}

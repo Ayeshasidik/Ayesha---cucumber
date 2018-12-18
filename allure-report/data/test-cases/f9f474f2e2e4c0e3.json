@@ -1,0 +1,61 @@
+{
+  "uid" : "f9f474f2e2e4c0e3",
+  "name" : "I click on elem \"Login button\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I click on elem \"Login button\"",
+  "historyId" : "2b6092aec8984068b27f7ba44f438222",
+  "time" : {
+    "start" : 1545131776690,
+    "stop" : 1545131776690,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on elem \"Login button\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9f474f2e2e4c0e3.json",
+  "parameterValues" : [ "chrome" ]
+}

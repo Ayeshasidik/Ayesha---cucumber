@@ -1,0 +1,168 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1545126947051' stop='1545126967074'>
+    <name>Test the page title Test if the demo app has the title "DEMO APP"</name>
+    <title>Test the page title Test if the demo app has the title "DEMO APP"</title>
+    <test-cases>
+        <test-case start='1545126947057' status='broken' stop='1545126967069'>
+            <name>I open the opencart url "http://www.opencart.com"</name>
+            <title>I open the opencart url "http://www.opencart.com"</title>
+            <labels>
+                <label name='feature' value='Test the page title'/>
+                <label name='story' value='Test if the demo app has the title "DEMO APP"'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1545126947063' status='broken' stop='1545126967069'>
+                    <name>POST /wd/hub/session/938cb34a8a63a3c3552b864bb4eae170/url</name>
+                    <title>POST /wd/hub/session/938cb34a8a63a3c3552b864bb4eae170/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cdc717a4-b2a6-40b6-a33d-ec8be772f8e1-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>function timed out, ensure the promise resolves within 20000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 20000 milliseconds
+                    at Timeout._onTimeout (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/cucumber/src/user_code_runner.js:61:18)
+                    at ontimeout (timers.js:498:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:290:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1545126967069' status='pending' stop='1545126967069'>
+            <name>I pause for the 1000ms</name>
+            <title>I pause for the 1000ms</title>
+            <labels>
+                <label name='feature' value='Test the page title'/>
+                <label name='story' value='Test if the demo app has the title "DEMO APP"'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1545126967070' status='pending' stop='1545126967070'>
+            <name>the title is  "OpenCart - Open Source Shopping Cart Solution"</name>
+            <title>the title is  "OpenCart - Open Source Shopping Cart Solution"</title>
+            <labels>
+                <label name='feature' value='Test the page title'/>
+                <label name='story' value='Test if the demo app has the title "DEMO APP"'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1545126967070' status='pending' stop='1545126967070'>
+            <name>I click on elem "Login link"</name>
+            <title>I click on elem "Login link"</title>
+            <labels>
+                <label name='feature' value='Test the page title'/>
+                <label name='story' value='Test if the demo app has the title "DEMO APP"'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1545126967070' status='pending' stop='1545126967070'>
+            <name>I enter "Sweetzy" into "userfield"</name>
+            <title>I enter "Sweetzy" into "userfield"</title>
+            <labels>
+                <label name='feature' value='Test the page title'/>
+                <label name='story' value='Test if the demo app has the title "DEMO APP"'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1545126967071' status='pending' stop='1545126967071'>
+            <name>I enter "passdummy" into "password-field"</name>
+            <title>I enter "passdummy" into "password-field"</title>
+            <labels>
+                <label name='feature' value='Test the page title'/>
+                <label name='story' value='Test if the demo app has the title "DEMO APP"'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1545126967071' status='pending' stop='1545126967071'>
+            <name>I click on elem "Login button"</name>
+            <title>I click on elem "Login button"</title>
+            <labels>
+                <label name='feature' value='Test the page title'/>
+                <label name='story' value='Test if the demo app has the title "DEMO APP"'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1545126967072' status='pending' stop='1545126967072'>
+            <name>I see "Login-error-message" into "Info-label"</name>
+            <title>I see "Login-error-message" into "Info-label"</title>
+            <labels>
+                <label name='feature' value='Test the page title'/>
+                <label name='story' value='Test if the demo app has the title "DEMO APP"'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/features/opencart.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

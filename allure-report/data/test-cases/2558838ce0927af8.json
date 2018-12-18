@@ -1,0 +1,146 @@
+{
+  "uid" : "2558838ce0927af8",
+  "name" : "I enter \"Sweetzy\" into \"userfield\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I enter \"Sweetzy\" into \"userfield\"",
+  "historyId" : "2316a398b7fbac799919a3d2fddf0d0",
+  "time" : {
+    "start" : 1545131898492,
+    "stop" : 1545131898616,
+    "duration" : 124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0dfa876a736ae97b13f4dbae04085c13/elements",
+      "time" : {
+        "start" : 1545131898494,
+        "stop" : 1545131898512,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73c08890d98b67b6",
+        "name" : "Request",
+        "source" : "73c08890d98b67b6.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "983cc4e60337ed03",
+        "name" : "Response",
+        "source" : "983cc4e60337ed03.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/0dfa876a736ae97b13f4dbae04085c13/element/0.17168370814154477-1/clear",
+      "time" : {
+        "start" : 1545131898513,
+        "stop" : 1545131898540,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "444e63cce9def57d",
+        "name" : "Response",
+        "source" : "444e63cce9def57d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/0dfa876a736ae97b13f4dbae04085c13/element/0.17168370814154477-1/value",
+      "time" : {
+        "start" : 1545131898540,
+        "stop" : 1545131898614,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a6f4cc142c2a083",
+        "name" : "Request",
+        "source" : "8a6f4cc142c2a083.json",
+        "type" : "application/json",
+        "size" : 137
+      }, {
+        "uid" : "2d7e81952be41cd9",
+        "name" : "Response",
+        "source" : "2d7e81952be41cd9.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"Sweetzy\" into \"userfield\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2558838ce0927af8.json",
+  "parameterValues" : [ "chrome" ]
+}

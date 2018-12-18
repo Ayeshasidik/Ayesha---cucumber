@@ -1,0 +1,171 @@
+[ {
+  "uid" : "b74dd6128986e0b7",
+  "name" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "time" : {
+    "start" : 1545134111479,
+    "stop" : 1545134111492,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a79bca5f20b36ffb",
+  "name" : "I pause for the 1000ms",
+  "time" : {
+    "start" : 1545134110475,
+    "stop" : 1545134111479,
+    "duration" : 1004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0e893171158233c",
+  "name" : "I enter \"Sweetzy\" into \"userfield\"",
+  "time" : {
+    "start" : 1545132275666,
+    "stop" : 1545132275790,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "329cf3e472379fbc",
+  "name" : "I click on elem \"Login button\"",
+  "time" : {
+    "start" : 1545134114040,
+    "stop" : 1545134115673,
+    "duration" : 1633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5087622af82e16",
+  "name" : "I enter \"passdummy\" into \"password-field\"",
+  "time" : {
+    "start" : 1545132275790,
+    "stop" : 1545132275886,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e321c3bcd28bd51",
+  "name" : "I click on elem \"Login link\"",
+  "time" : {
+    "start" : 1545132273387,
+    "stop" : 1545132275665,
+    "duration" : 2278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57843f5f29830810",
+  "name" : "I pause for the 1000ms",
+  "time" : {
+    "start" : 1545132272369,
+    "stop" : 1545132273372,
+    "duration" : 1003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4651ab6c8b70561",
+  "name" : "I open the opencart url \"http://www.opencart.com\"",
+  "time" : {
+    "start" : 1545132259894,
+    "stop" : 1545132272368,
+    "duration" : 12474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7835b3afef8a61bf",
+  "name" : "I see \"Login-error-message\" into \"Info-label\"",
+  "time" : {
+    "start" : 1545132279098,
+    "stop" : 1545132279135,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ced05ead279517c",
+  "name" : "I enter \"passdummy\" into \"password-field\"",
+  "time" : {
+    "start" : 1545134113952,
+    "stop" : 1545134114040,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd8dbd046c7a5eae",
+  "name" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "time" : {
+    "start" : 1545132273373,
+    "stop" : 1545132273387,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "595a4e30cd606390",
+  "name" : "I click on elem \"Login link\"",
+  "time" : {
+    "start" : 1545134111493,
+    "stop" : 1545134113835,
+    "duration" : 2342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fff63c9868a709e",
+  "name" : "I enter \"Aisha\" into \"userfield\"",
+  "time" : {
+    "start" : 1545134113836,
+    "stop" : 1545134113951,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "560c70de8cbec7f3",
+  "name" : "I click on elem \"Login button\"",
+  "time" : {
+    "start" : 1545132275886,
+    "stop" : 1545132279097,
+    "duration" : 3211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d65c3a1cb575bdd6",
+  "name" : "I enter \"Sweetzy\" into \"userfield\"",
+  "time" : {
+    "start" : 1545134052051,
+    "stop" : 1545134052173,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8646fd48c8ad77b",
+  "name" : "I open the opencart url \"http://www.opencart.com\"",
+  "time" : {
+    "start" : 1545134104621,
+    "stop" : 1545134110474,
+    "duration" : 5853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7061b607325a6d47",
+  "name" : "I see \"Login-error-message\" into \"Info-label\"",
+  "time" : {
+    "start" : 1545134115673,
+    "stop" : 1545134115709,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

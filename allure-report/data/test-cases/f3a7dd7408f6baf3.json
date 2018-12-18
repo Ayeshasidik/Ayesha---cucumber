@@ -1,0 +1,61 @@
+{
+  "uid" : "f3a7dd7408f6baf3",
+  "name" : "I pause for the 1000ms",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I pause for the 1000ms",
+  "historyId" : "58a51fe83336d7c252e2853a7a64279f",
+  "time" : {
+    "start" : 1545133931077,
+    "stop" : 1545133932080,
+    "duration" : 1003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I pause for the 1000ms"
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3a7dd7408f6baf3.json",
+  "parameterValues" : [ "chrome" ]
+}

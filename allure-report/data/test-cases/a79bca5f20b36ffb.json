@@ -1,0 +1,95 @@
+{
+  "uid" : "a79bca5f20b36ffb",
+  "name" : "I pause for the 1000ms",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I pause for the 1000ms",
+  "historyId" : "58a51fe83336d7c252e2853a7a64279f",
+  "time" : {
+    "start" : 1545134110475,
+    "stop" : 1545134111479,
+    "duration" : 1004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I pause for the 1000ms"
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "49ca6b3453f2db2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545134048390,
+        "stop" : 1545134049398,
+        "duration" : 1008
+      }
+    }, {
+      "uid" : "f3a7dd7408f6baf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545133931077,
+        "stop" : 1545133932080,
+        "duration" : 1003
+      }
+    }, {
+      "uid" : "2953e2f47c62bf48",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545133717768,
+        "stop" : 1545133717769,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "95b5fa92d0060940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545132647010,
+        "stop" : 1545132648014,
+        "duration" : 1004
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a79bca5f20b36ffb.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,111 @@
+{
+  "uid" : "57843f5f29830810",
+  "name" : "I pause for the 1000ms",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I pause for the 1000ms",
+  "historyId" : "c2f76ec12d4a4ee326847e4cfda69a20",
+  "time" : {
+    "start" : 1545132272369,
+    "stop" : 1545132273372,
+    "duration" : 1003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I pause for the 1000ms"
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c5d635e387d1ac26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545131893780,
+        "stop" : 1545131894784,
+        "duration" : 1004
+      }
+    }, {
+      "uid" : "11282201898148f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545131775666,
+        "stop" : 1545131776671,
+        "duration" : 1005
+      }
+    }, {
+      "uid" : "5b2bd5e962687852",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131629362,
+        "stop" : 1545131629363,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8001d08899d5c563",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131307139,
+        "stop" : 1545131307140,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1546ee13a9cc3ae3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545126967069,
+        "stop" : 1545126967069,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d185f25dc739554f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545126798852,
+        "stop" : 1545126798852,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57843f5f29830810.json",
+  "parameterValues" : [ "chrome" ]
+}

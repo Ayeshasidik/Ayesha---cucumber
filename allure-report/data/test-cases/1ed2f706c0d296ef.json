@@ -1,0 +1,98 @@
+{
+  "uid" : "1ed2f706c0d296ef",
+  "name" : "I open the opencart url \"http://www.opencart.com\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I open the opencart url \"http://www.opencart.com\"",
+  "historyId" : "9bc5ee4200ee4ea8944bc12ccf12f03e",
+  "time" : {
+    "start" : 1545131878086,
+    "stop" : 1545131893779,
+    "duration" : 15693
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0dfa876a736ae97b13f4dbae04085c13/url",
+      "time" : {
+        "start" : 1545131878091,
+        "stop" : 1545131893776,
+        "duration" : 15685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bfb6854ece4b1267",
+        "name" : "Request",
+        "source" : "bfb6854ece4b1267.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "106bb9e95a0c35cd",
+        "name" : "Response",
+        "source" : "106bb9e95a0c35cd.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the opencart url \"http://www.opencart.com\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ed2f706c0d296ef.json",
+  "parameterValues" : [ "chrome" ]
+}

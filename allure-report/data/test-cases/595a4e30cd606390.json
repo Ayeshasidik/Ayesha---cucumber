@@ -1,0 +1,153 @@
+{
+  "uid" : "595a4e30cd606390",
+  "name" : "I click on elem \"Login link\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I click on elem \"Login link\"",
+  "historyId" : "968af8361e4f3a521c71a7865f44307f",
+  "time" : {
+    "start" : 1545134111493,
+    "stop" : 1545134113835,
+    "duration" : 2342
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element",
+      "time" : {
+        "start" : 1545134111495,
+        "stop" : 1545134111511,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "694873fbf1249782",
+        "name" : "Request",
+        "source" : "694873fbf1249782.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "328128bca63fa88d",
+        "name" : "Response",
+        "source" : "328128bca63fa88d.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.36195992709323876-1/click",
+      "time" : {
+        "start" : 1545134111511,
+        "stop" : 1545134113833,
+        "duration" : 2322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b471faa0005b5dec",
+        "name" : "Response",
+        "source" : "b471faa0005b5dec.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on elem \"Login link\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f1a055b8da726c6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545134049413,
+        "stop" : 1545134052050,
+        "duration" : 2637
+      }
+    }, {
+      "uid" : "84112be36075ddfe",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545133932874,
+        "stop" : 1545133932874,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "384471c0ca83c2a2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545133717770,
+        "stop" : 1545133717770,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bcb316e9fff7929b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545132648033,
+        "stop" : 1545132651164,
+        "duration" : 3131
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "595a4e30cd606390.json",
+  "parameterValues" : [ "chrome" ]
+}

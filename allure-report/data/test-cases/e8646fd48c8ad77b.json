@@ -1,0 +1,133 @@
+{
+  "uid" : "e8646fd48c8ad77b",
+  "name" : "I open the opencart url \"http://www.opencart.com\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I open the opencart url \"http://www.opencart.com\"",
+  "historyId" : "245cc7ed34b4738164ebd9830a271432",
+  "time" : {
+    "start" : 1545134104621,
+    "stop" : 1545134110474,
+    "duration" : 5853
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/url",
+      "time" : {
+        "start" : 1545134104626,
+        "stop" : 1545134110472,
+        "duration" : 5846
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1a3adc7e746cf5d",
+        "name" : "Request",
+        "source" : "b1a3adc7e746cf5d.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "9ae889f201a32610",
+        "name" : "Response",
+        "source" : "9ae889f201a32610.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the opencart url \"http://www.opencart.com\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6fceba1dbd2b40f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545134040752,
+        "stop" : 1545134048389,
+        "duration" : 7637
+      }
+    }, {
+      "uid" : "459d1b655fea3841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545133929891,
+        "stop" : 1545133931076,
+        "duration" : 1185
+      }
+    }, {
+      "uid" : "101ff7fe885d1af7",
+      "status" : "broken",
+      "statusDetails" : "function timed out, ensure the promise resolves within 20000 milliseconds",
+      "time" : {
+        "start" : 1545133697760,
+        "stop" : 1545133717768,
+        "duration" : 20008
+      }
+    }, {
+      "uid" : "a36905eaa08cc055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545132637778,
+        "stop" : 1545132647009,
+        "duration" : 9231
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8646fd48c8ad77b.json",
+  "parameterValues" : [ "chrome" ]
+}

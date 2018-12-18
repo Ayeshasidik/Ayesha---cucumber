@@ -1,0 +1,98 @@
+{
+  "uid" : "459d1b655fea3841",
+  "name" : "I open the opencart url \"http://www.opencart.com\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I open the opencart url \"http://www.opencart.com\"",
+  "historyId" : "245cc7ed34b4738164ebd9830a271432",
+  "time" : {
+    "start" : 1545133929891,
+    "stop" : 1545133931076,
+    "duration" : 1185
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/86c5efc200e5bb7057920ff6cd090137/url",
+      "time" : {
+        "start" : 1545133929896,
+        "stop" : 1545133931073,
+        "duration" : 1177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c84d17183a1bfd6f",
+        "name" : "Request",
+        "source" : "c84d17183a1bfd6f.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "76befb3b9928e1a5",
+        "name" : "Response",
+        "source" : "76befb3b9928e1a5.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the opencart url \"http://www.opencart.com\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "459d1b655fea3841.json",
+  "parameterValues" : [ "chrome" ]
+}

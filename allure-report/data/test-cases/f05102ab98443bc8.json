@@ -1,0 +1,146 @@
+{
+  "uid" : "f05102ab98443bc8",
+  "name" : "I enter \"passdummy\" into \"password-field\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I enter \"passdummy\" into \"password-field\"",
+  "historyId" : "29f5ad95a91e538c7c16ae4959044175",
+  "time" : {
+    "start" : 1545134052173,
+    "stop" : 1545134052265,
+    "duration" : 92
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/645b0fc78e21b44f7a0e20288e82671c/elements",
+      "time" : {
+        "start" : 1545134052175,
+        "stop" : 1545134052190,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ebff4f9bd71c309",
+        "name" : "Request",
+        "source" : "8ebff4f9bd71c309.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "2d7733559dfb0ff1",
+        "name" : "Response",
+        "source" : "2d7733559dfb0ff1.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/645b0fc78e21b44f7a0e20288e82671c/element/0.851229618882376-2/clear",
+      "time" : {
+        "start" : 1545134052190,
+        "stop" : 1545134052218,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7b4d206bc22988a",
+        "name" : "Response",
+        "source" : "e7b4d206bc22988a.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/645b0fc78e21b44f7a0e20288e82671c/element/0.851229618882376-2/value",
+      "time" : {
+        "start" : 1545134052219,
+        "stop" : 1545134052264,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb4191b1fe787ca3",
+        "name" : "Request",
+        "source" : "cb4191b1fe787ca3.json",
+        "type" : "application/json",
+        "size" : 165
+      }, {
+        "uid" : "ed97ee649934660",
+        "name" : "Response",
+        "source" : "ed97ee649934660.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"passdummy\" into \"password-field\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f05102ab98443bc8.json",
+  "parameterValues" : [ "chrome" ]
+}

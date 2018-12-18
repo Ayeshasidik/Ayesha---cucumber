@@ -1,0 +1,180 @@
+{
+  "uid" : "6ced05ead279517c",
+  "name" : "I enter \"passdummy\" into \"password-field\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I enter \"passdummy\" into \"password-field\"",
+  "historyId" : "29f5ad95a91e538c7c16ae4959044175",
+  "time" : {
+    "start" : 1545134113952,
+    "stop" : 1545134114040,
+    "duration" : 88
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/elements",
+      "time" : {
+        "start" : 1545134113953,
+        "stop" : 1545134113969,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c6ab8e818359a83e",
+        "name" : "Request",
+        "source" : "c6ab8e818359a83e.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "710400cf2f7b9c4",
+        "name" : "Response",
+        "source" : "710400cf2f7b9c4.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-2/clear",
+      "time" : {
+        "start" : 1545134113969,
+        "stop" : 1545134113995,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb6e8a5bcb6b56a9",
+        "name" : "Response",
+        "source" : "cb6e8a5bcb6b56a9.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6961191723699109-2/value",
+      "time" : {
+        "start" : 1545134113995,
+        "stop" : 1545134114038,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "716b9fb2ea85838d",
+        "name" : "Request",
+        "source" : "716b9fb2ea85838d.json",
+        "type" : "application/json",
+        "size" : 165
+      }, {
+        "uid" : "e3a126445931c89d",
+        "name" : "Response",
+        "source" : "e3a126445931c89d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"passdummy\" into \"password-field\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f05102ab98443bc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545134052173,
+        "stop" : 1545134052265,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "7415f8c428bdb64b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545133932874,
+        "stop" : 1545133932874,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3443fa1e7573f4ca",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545133717770,
+        "stop" : 1545133717771,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b9e2f76cc45538ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545132651289,
+        "stop" : 1545132651379,
+        "duration" : 90
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ced05ead279517c.json",
+  "parameterValues" : [ "chrome" ]
+}

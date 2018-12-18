@@ -1,0 +1,169 @@
+{
+  "uid" : "7835b3afef8a61bf",
+  "name" : "I see \"Login-error-message\" into \"Info-label\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I see \"Login-error-message\" into \"Info-label\"",
+  "historyId" : "4aa3b8304ceb4f85256413424f308130",
+  "time" : {
+    "start" : 1545132279098,
+    "stop" : 1545132279135,
+    "duration" : 37
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ed021f1322dcdfe119a3f5e4c97d97a7/elements",
+      "time" : {
+        "start" : 1545132279100,
+        "stop" : 1545132279116,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ca22628ec03ffc7",
+        "name" : "Request",
+        "source" : "7ca22628ec03ffc7.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "7ed183d73d0146e",
+        "name" : "Response",
+        "source" : "7ed183d73d0146e.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/ed021f1322dcdfe119a3f5e4c97d97a7/element/0.6530219906736776-1/text",
+      "time" : {
+        "start" : 1545132279117,
+        "stop" : 1545132279134,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1862a74d2497821c",
+        "name" : "Response",
+        "source" : "1862a74d2497821c.json",
+        "type" : "application/json",
+        "size" : 129
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I see \"Login-error-message\" into \"Info-label\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dac2ea645429e614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545131900313,
+        "stop" : 1545131900355,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "dfb61dced6fb4201",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131776690,
+        "stop" : 1545131776690,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e82995d5f2f2f37",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131629366,
+        "stop" : 1545131629366,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c90f1e6e19b2b858",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131307142,
+        "stop" : 1545131307142,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "24a737d6983c101e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545126967072,
+        "stop" : 1545126967072,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "32c3cc5680e6c95a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545126798854,
+        "stop" : 1545126798854,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7835b3afef8a61bf.json",
+  "parameterValues" : [ "chrome" ]
+}

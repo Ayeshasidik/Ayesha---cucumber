@@ -1,0 +1,61 @@
+{
+  "uid" : "2bfb2c940ca9b7a4",
+  "name" : "I see \"Login-error-message\" into \"Info-label\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I see \"Login-error-message\" into \"Info-label\"",
+  "historyId" : "5960cb09afd3a8ed5d0dd07e35c40525",
+  "time" : {
+    "start" : 1545133717771,
+    "stop" : 1545133717772,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I see \"Login-error-message\" into \"Info-label\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bfb2c940ca9b7a4.json",
+  "parameterValues" : [ "chrome" ]
+}

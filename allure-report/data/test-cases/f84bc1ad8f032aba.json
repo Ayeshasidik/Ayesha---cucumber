@@ -1,0 +1,119 @@
+{
+  "uid" : "f84bc1ad8f032aba",
+  "name" : "I click on elem \"Login link\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I click on elem \"Login link\"",
+  "historyId" : "8811d1d56625511713d4aca8b043abdc",
+  "time" : {
+    "start" : 1545131894804,
+    "stop" : 1545131898491,
+    "duration" : 3687
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0dfa876a736ae97b13f4dbae04085c13/element",
+      "time" : {
+        "start" : 1545131894807,
+        "stop" : 1545131894822,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d8ac8997793bfb8",
+        "name" : "Request",
+        "source" : "5d8ac8997793bfb8.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "534052df114e7f83",
+        "name" : "Response",
+        "source" : "534052df114e7f83.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/0dfa876a736ae97b13f4dbae04085c13/element/0.7682807519340722-1/click",
+      "time" : {
+        "start" : 1545131894822,
+        "stop" : 1545131898487,
+        "duration" : 3665
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ebbf8bb72d42d44",
+        "name" : "Response",
+        "source" : "ebbf8bb72d42d44.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on elem \"Login link\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f84bc1ad8f032aba.json",
+  "parameterValues" : [ "chrome" ]
+}

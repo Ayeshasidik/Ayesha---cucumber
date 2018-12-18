@@ -1,0 +1,196 @@
+{
+  "uid" : "f0e893171158233c",
+  "name" : "I enter \"Sweetzy\" into \"userfield\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I enter \"Sweetzy\" into \"userfield\"",
+  "historyId" : "2316a398b7fbac799919a3d2fddf0d0",
+  "time" : {
+    "start" : 1545132275666,
+    "stop" : 1545132275790,
+    "duration" : 124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ed021f1322dcdfe119a3f5e4c97d97a7/elements",
+      "time" : {
+        "start" : 1545132275668,
+        "stop" : 1545132275686,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "439eea4c23f565c",
+        "name" : "Request",
+        "source" : "439eea4c23f565c.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "8c37c416301dd737",
+        "name" : "Response",
+        "source" : "8c37c416301dd737.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ed021f1322dcdfe119a3f5e4c97d97a7/element/0.16735268022834826-1/clear",
+      "time" : {
+        "start" : 1545132275687,
+        "stop" : 1545132275714,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98048eaa8b46b1bd",
+        "name" : "Response",
+        "source" : "98048eaa8b46b1bd.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ed021f1322dcdfe119a3f5e4c97d97a7/element/0.16735268022834826-1/value",
+      "time" : {
+        "start" : 1545132275715,
+        "stop" : 1545132275788,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d355a2cc0f209e5",
+        "name" : "Request",
+        "source" : "6d355a2cc0f209e5.json",
+        "type" : "application/json",
+        "size" : 137
+      }, {
+        "uid" : "2d9b0321ed1029f5",
+        "name" : "Response",
+        "source" : "2d9b0321ed1029f5.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"Sweetzy\" into \"userfield\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2558838ce0927af8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545131898492,
+        "stop" : 1545131898616,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "ef49487484536634",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131776690,
+        "stop" : 1545131776690,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cbcb6fc37bb84616",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131629364,
+        "stop" : 1545131629365,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "773644a69199e3d9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545131307141,
+        "stop" : 1545131307141,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f2e5ec556c1253b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545126967070,
+        "stop" : 1545126967070,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f6d436693299c9f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545126798853,
+        "stop" : 1545126798853,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0e893171158233c.json",
+  "parameterValues" : [ "chrome" ]
+}

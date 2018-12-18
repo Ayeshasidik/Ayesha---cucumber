@@ -1,0 +1,96 @@
+{
+  "uid" : "2be396e73f14a2e4",
+  "name" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "historyId" : "8d0e7e1a15fca3f1d01aa22a1f842b78",
+  "time" : {
+    "start" : 1545131776671,
+    "stop" : 1545131776689,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"www.opencart.com\": expected 'www.opencart.com' to equal 'OpenCart - Open Source Shopping Cart Solution'",
+  "statusTrace" : "AssertionError: Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"www.opencart.com\": expected 'www.opencart.com' to equal 'OpenCart - Open Source Shopping Cart Solution'\n                    at World.module.exports (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/support/check/checkTitle.js:22:14)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/core-js/library/modules/_export.js:35:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"www.opencart.com\": expected 'www.opencart.com' to equal 'OpenCart - Open Source Shopping Cart Solution'",
+    "statusTrace" : "AssertionError: Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"www.opencart.com\": expected 'www.opencart.com' to equal 'OpenCart - Open Source Shopping Cart Solution'\n                    at World.module.exports (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/support/check/checkTitle.js:22:14)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/core-js/library/modules/_export.js:35:28)",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/c1991d8aa9933b4f8014fef55b5481f7/title",
+      "time" : {
+        "start" : 1545131776675,
+        "stop" : 1545131776683,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b001f7e1ce6f72cb",
+        "name" : "Response",
+        "source" : "b001f7e1ce6f72cb.json",
+        "type" : "application/json",
+        "size" : 105
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2be396e73f14a2e4.json",
+  "parameterValues" : [ "chrome" ]
+}

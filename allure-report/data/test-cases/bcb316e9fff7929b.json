@@ -1,0 +1,119 @@
+{
+  "uid" : "bcb316e9fff7929b",
+  "name" : "I click on elem \"Login link\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I click on elem \"Login link\"",
+  "historyId" : "968af8361e4f3a521c71a7865f44307f",
+  "time" : {
+    "start" : 1545132648033,
+    "stop" : 1545132651164,
+    "duration" : 3131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2e2cfa1d8e0bc508e89eee8b0ebabe5b/element",
+      "time" : {
+        "start" : 1545132648036,
+        "stop" : 1545132648052,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d728f9f602350652",
+        "name" : "Request",
+        "source" : "d728f9f602350652.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "d149cb77a64219c6",
+        "name" : "Response",
+        "source" : "d149cb77a64219c6.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/2e2cfa1d8e0bc508e89eee8b0ebabe5b/element/0.29477900779774857-1/click",
+      "time" : {
+        "start" : 1545132648052,
+        "stop" : 1545132651162,
+        "duration" : 3110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92782f98333c9b98",
+        "name" : "Response",
+        "source" : "92782f98333c9b98.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on elem \"Login link\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcb316e9fff7929b.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "90f98e630c59046",
+  "name" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "historyId" : "7f6afdf0c3a247b2e997c12e08393e14",
+  "time" : {
+    "start" : 1545133932080,
+    "stop" : 1545133932873,
+    "duration" : 793
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"Web Authentication\": expected 'Web Authentication' to equal 'OpenCart - Open Source Shopping Cart Solution'",
+  "statusTrace" : "AssertionError: Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"Web Authentication\": expected 'Web Authentication' to equal 'OpenCart - Open Source Shopping Cart Solution'\n                    at World.module.exports (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/support/check/checkTitle.js:22:14)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/core-js/library/modules/_export.js:35:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"Web Authentication\": expected 'Web Authentication' to equal 'OpenCart - Open Source Shopping Cart Solution'",
+    "statusTrace" : "AssertionError: Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"Web Authentication\": expected 'Web Authentication' to equal 'OpenCart - Open Source Shopping Cart Solution'\n                    at World.module.exports (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/support/check/checkTitle.js:22:14)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/core-js/library/modules/_export.js:35:28)",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/86c5efc200e5bb7057920ff6cd090137/title",
+      "time" : {
+        "start" : 1545133932083,
+        "stop" : 1545133932868,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "742703ceef14e477",
+        "name" : "Response",
+        "source" : "742703ceef14e477.json",
+        "type" : "application/json",
+        "size" : 107
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90f98e630c59046.json",
+  "parameterValues" : [ "chrome" ]
+}

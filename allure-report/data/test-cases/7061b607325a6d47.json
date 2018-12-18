@@ -1,0 +1,154 @@
+{
+  "uid" : "7061b607325a6d47",
+  "name" : "I see \"Login-error-message\" into \"Info-label\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I see \"Login-error-message\" into \"Info-label\"",
+  "historyId" : "5960cb09afd3a8ed5d0dd07e35c40525",
+  "time" : {
+    "start" : 1545134115673,
+    "stop" : 1545134115709,
+    "duration" : 36
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/elements",
+      "time" : {
+        "start" : 1545134115676,
+        "stop" : 1545134115690,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f1c532c2f1b7bee4",
+        "name" : "Request",
+        "source" : "f1c532c2f1b7bee4.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "d69d99b4ca64bb5e",
+        "name" : "Response",
+        "source" : "d69d99b4ca64bb5e.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/element/0.6802240281042167-1/text",
+      "time" : {
+        "start" : 1545134115691,
+        "stop" : 1545134115707,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46c792fad9f5aff3",
+        "name" : "Response",
+        "source" : "46c792fad9f5aff3.json",
+        "type" : "application/json",
+        "size" : 129
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I see \"Login-error-message\" into \"Info-label\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dcf98bde3e104420",
+      "status" : "failed",
+      "statusDetails" : "Expected text to be \"No match for E-Mail and/or Password.\n                ×\" but found \"Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\n                ×\": expected 'No match for E-Mail and/or Password.\\n×' to equal 'Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\\n×'",
+      "time" : {
+        "start" : 1545134053879,
+        "stop" : 1545134053919,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "648a661fc3ed7e88",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545133932875,
+        "stop" : 1545133932875,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2bfb2c940ca9b7a4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545133717771,
+        "stop" : 1545133717772,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6d45ef8dce1b4329",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545132653085,
+        "stop" : 1545132653123,
+        "duration" : 38
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7061b607325a6d47.json",
+  "parameterValues" : [ "chrome" ]
+}

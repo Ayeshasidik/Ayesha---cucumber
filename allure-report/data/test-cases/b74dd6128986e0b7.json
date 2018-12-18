@@ -1,0 +1,127 @@
+{
+  "uid" : "b74dd6128986e0b7",
+  "name" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..the title is  \"OpenCart - Open Source Shopping Cart Solution\"",
+  "historyId" : "7f6afdf0c3a247b2e997c12e08393e14",
+  "time" : {
+    "start" : 1545134111479,
+    "stop" : 1545134111492,
+    "duration" : 13
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/447ff94cdd9c9ce7336878bc6cc8ce24/title",
+      "time" : {
+        "start" : 1545134111483,
+        "stop" : 1545134111491,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cea38b8b71b15a9",
+        "name" : "Response",
+        "source" : "6cea38b8b71b15a9.json",
+        "type" : "application/json",
+        "size" : 134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "the title is  \"OpenCart - Open Source Shopping Cart Solution\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b9c7a9abe8c64202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545134049398,
+        "stop" : 1545134049413,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "90f98e630c59046",
+      "status" : "failed",
+      "statusDetails" : "Expected title to be \"OpenCart - Open Source Shopping Cart Solution\" but found \"Web Authentication\": expected 'Web Authentication' to equal 'OpenCart - Open Source Shopping Cart Solution'",
+      "time" : {
+        "start" : 1545133932080,
+        "stop" : 1545133932873,
+        "duration" : 793
+      }
+    }, {
+      "uid" : "98f43b74be84f16b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1545133717769,
+        "stop" : 1545133717769,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8f6cb66bf7e27c1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545132648015,
+        "stop" : 1545132648033,
+        "duration" : 18
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b74dd6128986e0b7.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "d695137d18fa972e",
+  "name" : "I open the opencart url \"http://www.opencart.com\"",
+  "fullName" : "Test the page title Test if the demo app has the title \"DEMO APP\".I open the opencart url \"http://www.opencart.com\"",
+  "historyId" : "9bc5ee4200ee4ea8944bc12ccf12f03e",
+  "time" : {
+    "start" : 1545131609345,
+    "stop" : 1545131629362,
+    "duration" : 20017
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "function timed out, ensure the promise resolves within 20000 milliseconds",
+  "statusTrace" : "Error: function timed out, ensure the promise resolves within 20000 milliseconds\n                    at Timeout._onTimeout (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/cucumber/src/user_code_runner.js:61:18)\n                    at ontimeout (timers.js:498:11)\n                    at tryOnTimeout (timers.js:323:5)\n                    at Timer.listOnTimeout (timers.js:290:5)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "function timed out, ensure the promise resolves within 20000 milliseconds",
+    "statusTrace" : "Error: function timed out, ensure the promise resolves within 20000 milliseconds\n                    at Timeout._onTimeout (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/cucumber/src/user_code_runner.js:61:18)\n                    at ontimeout (timers.js:498:11)\n                    at tryOnTimeout (timers.js:323:5)\n                    at Timer.listOnTimeout (timers.js:290:5)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b398db82da0ed872596cb0f43a7e1ea4/url",
+      "time" : {
+        "start" : 1545131609350,
+        "stop" : 1545131629362,
+        "duration" : 20012
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: function timed out, ensure the promise resolves within 20000 milliseconds\n                    at Timeout._onTimeout (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/cucumber/src/user_code_runner.js:61:18)\n                    at ontimeout (timers.js:498:11)\n                    at tryOnTimeout (timers.js:323:5)\n                    at Timer.listOnTimeout (timers.js:290:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3219a3e9af929271",
+        "name" : "Request",
+        "source" : "3219a3e9af929271.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the page title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testClass",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the opencart url \"http://www.opencart.com\""
+  }, {
+    "name" : "package",
+    "value" : "Test the page title Test if the demo app has the title \"DEMO APP\""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d695137d18fa972e.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,123 @@
+{
+  "uid" : "dcf98bde3e104420",
+  "name" : "I see \"Login-error-message\" into \"Info-label\"",
+  "fullName" : "Open cart application Test if the open cart application verifies the error message..I see \"Login-error-message\" into \"Info-label\"",
+  "historyId" : "5960cb09afd3a8ed5d0dd07e35c40525",
+  "time" : {
+    "start" : 1545134053879,
+    "stop" : 1545134053919,
+    "duration" : 40
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected text to be \"No match for E-Mail and/or Password.\n                ×\" but found \"Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\n                ×\": expected 'No match for E-Mail and/or Password.\\n×' to equal 'Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\\n×'",
+  "statusTrace" : "AssertionError: Expected text to be \"No match for E-Mail and/or Password.\n                ×\" but found \"Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\n                ×\": expected 'No match for E-Mail and/or Password.\\n×' to equal 'Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\\n×'\n                    at World.module.exports (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/support/action/infoMsg.js:13:32)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/core-js/library/modules/_export.js:35:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected text to be \"No match for E-Mail and/or Password.\n                ×\" but found \"Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\n                ×\": expected 'No match for E-Mail and/or Password.\\n×' to equal 'Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\\n×'",
+    "statusTrace" : "AssertionError: Expected text to be \"No match for E-Mail and/or Password.\n                ×\" but found \"Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\n                ×\": expected 'No match for E-Mail and/or Password.\\n×' to equal 'Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\\n×'\n                    at World.module.exports (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/src/support/action/infoMsg.js:13:32)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/manoj/Desktop/Ayesha/cucumber-boilerplate/node_modules/core-js/library/modules/_export.js:35:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/645b0fc78e21b44f7a0e20288e82671c/elements",
+      "time" : {
+        "start" : 1545134053882,
+        "stop" : 1545134053896,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce873eeaac9af976",
+        "name" : "Request",
+        "source" : "ce873eeaac9af976.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "5889f9061feda954",
+        "name" : "Response",
+        "source" : "5889f9061feda954.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/645b0fc78e21b44f7a0e20288e82671c/element/0.0969535767226033-1/text",
+      "time" : {
+        "start" : 1545134053897,
+        "stop" : 1545134053915,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56296f1c5fbfdb4",
+        "name" : "Response",
+        "source" : "56296f1c5fbfdb4.json",
+        "type" : "application/json",
+        "size" : 180
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Open cart application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Test if the open cart application verifies the error message."
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testClass",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "testMethod",
+    "value" : "I see \"Login-error-message\" into \"Info-label\""
+  }, {
+    "name" : "package",
+    "value" : "Open cart application Test if the open cart application verifies the error message."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcf98bde3e104420.json",
+  "parameterValues" : [ "chrome" ]
+}
